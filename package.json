@@ -1,20 +1,25 @@
 {
-  "name": "meal-planner-web",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@material-ui/core": "^4.2.1",
-    "next": "^9.0.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^5.0.0-beta.8"
+    "name": "meal-planner-web",
+    "version": "0.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@material-ui/core": "^4.2.1",
+        "@material-ui/icons": "^4.2.1",
+        "@material-ui/styles": "^4.2.1",
+        "next": "^9.0.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "styled-components": "^5.0.0-beta.6-ej4"
+    },
+    "devDependencies": {
+        "babel-plugin-styled-components": "^1.10.6"
     }
 }
