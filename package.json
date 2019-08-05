@@ -11,15 +11,21 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@apollo/react-hooks": "0.1.0-beta.11",
         "@material-ui/core": "^4.2.1",
         "@material-ui/icons": "^4.2.1",
         "@material-ui/styles": "^4.2.1",
-        "next": "^9.0.2",
+        "apollo-boost": "^0.4.3",
+        "graphql": "^14.4.2",
+        "isomorphic-unfetch": "^3.0.0",
+        "next": "latest",
         "react": "^16.8.6",
+        "react-apollo": "^2.5.8",
         "react-dom": "^16.8.6",
         "styled-components": "^5.0.0-beta.6-ej4"
     },
     "devDependencies": {
+        "babel-plugin-import-graphql": "^2.7.0",
         "babel-plugin-styled-components": "^1.10.6"
     }
 }
