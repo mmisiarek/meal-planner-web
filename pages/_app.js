@@ -1,7 +1,7 @@
 import App, { Container } from "next/app";
 import React from "react";
 import ApolloClient from "apollo-boost";
-import { ApolloProvider } from "react-apollo";
+import { ApolloProvider } from "@apollo/react-hooks";
 import { ThemeProvider } from "styled-components";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
